@@ -113,7 +113,8 @@ body._lock {
 .menu__icon {
     display: none;
 }
-.header__line {
+.header__line,
+.header__line-footer {
     height: 10px;
     width: 100%;
     clear: both;
@@ -192,6 +193,9 @@ body._lock {
 */
 
 @media (max-width:767px){
+    .header__wrapper {
+        min-height: 70px;
+    }
     .header__logo-img {
         width: 70%;
     }
