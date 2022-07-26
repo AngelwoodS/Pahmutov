@@ -196,10 +196,10 @@ body._lock {
         width: 70%;
     }
     .catalog__item {
-        max-width: 240px;
+        max-width: 200px;
     }
     .catalog__name {
-        font-size: 18px;
+        font-size: 15px;
     }
     .menu__icon {
         z-index: 5;
